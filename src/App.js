@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <h2>Speech To Text Converter</h2>
+        <br />
+        <p>A React app that will convert wahtever you speak into text and you can copy this text also</p>
+
+      <div className="main-content">
+
+      </div>
+
+      <div className="btn-style">
+
+      <button>Copy</button>
+      <button>Start Listening</button>
+      <button>Stop Listening</button>
+
+      </div>
+
+      </div>
+    </>
   );
-}
+};
 
 export default App;
